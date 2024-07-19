@@ -1,0 +1,104 @@
+@media (min-width: 1440px) {
+    :root {
+        font-size: 18px;
+    }
+
+    navbar {
+        padding: 3rem;
+    }
+
+    navbar .nav-links {
+        gap: 3rem;
+    }
+
+    header {
+        padding: 1.5rem 19rem;
+    }
+
+    .main-content {
+        padding: 0 19rem;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 6rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .main-content img {
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+
+    .main-content .content {
+        row-gap: 0.5rem;
+    }
+
+    .stay-productive {
+        column-gap: 3rem;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stay-productive .content {
+        row-gap: 0.5rem;
+    }
+
+    .testimonial .contents {
+        column-gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .testimonial img {
+        width: 5%;
+    }
+
+    .user-input {
+        width: 60%;
+        bottom: 370px;
+        justify-self: center;
+    }
+    
+    .user-input form {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .user-input form .input-action {
+        column-gap: 2rem;
+        grid-template-columns: 1fr 0.5fr;
+    }
+
+    footer {
+        padding-top: 10rem;
+        padding-bottom: 4rem;
+    }
+
+    footer img.logo {
+        width: 15%;
+    }
+
+    footer .contents {
+        align-items: center;
+        column-gap: 3rem;
+        grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
+    }
+
+    footer .contents .comp .paragraph,
+    footer .contents .location {
+        grid-template-columns: 10% 1fr;
+    }
+
+    footer .contents img {
+        width: 80%;
+    }
+
+    footer .medias a {
+        font-size: 1rem;
+    }
+
+    .stay-productive,
+    .testimonial,
+    footer {
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+}
